@@ -8,8 +8,7 @@ text-decoration: none;
 list-style-type: none;
 font-family: 'Montserrat';
 }
-.container,
-section{
+.container{
     /* border: 2px solid; */
     width: 1440px;
     padding: 0 8%;
@@ -49,7 +48,7 @@ border-radius: 8px;
 }
 main{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
 }
